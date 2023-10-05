@@ -128,6 +128,7 @@ body {
     --border-radius: 2rem;
 
     max-width: 46rem;
+    height: 110%;
     display: grid;
 }
 
@@ -137,7 +138,7 @@ body {
         grid-template-columns: 1fr 1fr;
         border-radius: var(--border-radius);
         overflow: hidden;
-        box-shadow: 0.5rem 1rem 3rem hsl(var(--clr-neutral-hsl-700));
+        box-shadow: 0.25rem .5rem 3rem hsla(0, 0%, 0%, 0.2);
     }
 }
 
